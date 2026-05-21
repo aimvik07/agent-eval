@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "agent-eval"
+name = "agt-eval"
 version = "0.1.0"
 description = "CLI toolkit for evaluating LLM agents"
 requires-python = ">=3.10"
