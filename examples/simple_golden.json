@@ -1,0 +1,13 @@
+[
+  {"id": "1", "input": "TypeError when calling parse()", "expected": "bug"},
+  {"id": "2", "input": "Add support for YAML configs", "expected": "feature_request"},
+  {"id": "3", "input": "How do I configure logging?", "expected": "question"},
+  {
+    "id": "4",
+    "input": "Error and feature request in one issue",
+    "expected": "bug",
+    "ambiguous": true,
+    "acceptable_outputs": ["bug", "feature_request"]
+  },
+  {"id": "5", "input": "Automated dependency update", "expected": "feature_request"}
+]
