@@ -9,6 +9,10 @@ CLI toolkit for evaluating LLM agents. Answers three questions:
 ## Install
 
 ```bash
+pip install agt-eval
+
+Or for development:
+git clone https://github.com/aimvik07/agent-eval.git
 cd agent-eval
 pip install -e ".[dev]"
 ```
